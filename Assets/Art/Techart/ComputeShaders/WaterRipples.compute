@@ -1,0 +1,71 @@
+#pragma kernel WaterRipples
+
+RWTexture2D<float4> NState;
+RWTexture2D<float4> Nm1State;
+RWTexture2D<float4> Np1State;
+float2 resolution;
+float3 impactPosition;
+float dispersion;
+float expansionRadius;
+float expansionMult;
+float meshScale;
+float speedOfTravel;
+int numImpactPositions;
+
+struct ObjectIntersectorData
+{
+    float2 impactPosition;
+    float impactRadius;
+};
+
+StructuredBuffer<ObjectIntersectorData> impactPositionsBuffer;
+
+[numthreads(8, 8, 1)]
+void WaterRipples(uint3 id : SV_DispatchThreadID)
+{
+    int2 coord = int2(id.xy);
+    
+    float expandRadius = max(0.1, expansionRadius);
+    int stepSize = max(1, (int)round(expandRadius));
+    float fractionalStep = expandRadius - floor(expandRadius);
+    
+    float ns_ij = NState[coord].x;
+    float nm1s_ij = Nm1State[coord].x;
+    
+    int2 rightCoord1 = clamp(coord + int2(stepSize, 0), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 rightCoord2 = clamp(coord + int2(stepSize + 1, 0), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 leftCoord1 = clamp(coord - int2(stepSize, 0), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 leftCoord2 = clamp(coord - int2(stepSize + 1, 0), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 topCoord1 = clamp(coord + int2(0, stepSize), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 topCoord2 = clamp(coord + int2(0, stepSize + 1), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 bottomCoord1 = clamp(coord - int2(0, stepSize), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    int2 bottomCoord2 = clamp(coord - int2(0, stepSize + 1), int2(0, 0), int2(resolution.x - 1, resolution.y - 1));
+    
+    float ns_ip1j = lerp(NState[rightCoord1].x, NState[rightCoord2].x, fractionalStep);
+    float ns_im1j = lerp(NState[leftCoord1].x, NState[leftCoord2].x, fractionalStep);
+    float ns_ijp1 = lerp(NState[topCoord1].x, NState[topCoord2].x, fractionalStep);
+    float ns_ijm1 = lerp(NState[bottomCoord1].x, NState[bottomCoord2].x, fractionalStep);
+
+    float waveSpeed = (0.25 / (meshScale * 0.01 + 1.0)) * speedOfTravel;
+    float laplacian = (ns_ip1j + ns_im1j + ns_ijp1 + ns_ijm1 - 4 * ns_ij) / (expandRadius * expandRadius);
+    
+    float newWaveHeight = ns_ij * 2 - nm1s_ij + waveSpeed * laplacian;
+    newWaveHeight *= dispersion;
+
+    float totalImpact = 0;
+    for (int i = 0; i < numImpactPositions; i++)
+    {
+        float2 impactPos = impactPositionsBuffer[i].impactPosition * resolution.x;
+        float distance = length(float2(id.x, id.y) - impactPos);
+        
+        float adjustedRadius = impactPositionsBuffer[i].impactRadius * resolution.x;
+        float impact = exp(-distance * distance / (2.0 * adjustedRadius * adjustedRadius));
+        impact = pow(impact, expansionMult);
+        
+        totalImpact += impact;
+    }
+    
+    newWaveHeight += totalImpact;
+    
+    Np1State[coord] = float4(newWaveHeight, newWaveHeight, newWaveHeight, 1);
+}

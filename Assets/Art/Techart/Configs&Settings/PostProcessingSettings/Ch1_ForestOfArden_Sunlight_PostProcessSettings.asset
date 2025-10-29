@@ -1,0 +1,968 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8900553574721796009
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44b00dc7f1548979c1c5563ea906162, type: 3}
+  m_Name: WaaaghProbeVolumeOverrides
+  m_EditorClassIdentifier: 
+  active: 1
+  IntensityMultiplier:
+    m_OverrideState: 1
+    m_Value: 3
+--- !u!114 &-7691502037222708944
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d09f6f76630f14193de8e68ba18b64, type: 3}
+  m_Name: Tonemapping
+  m_EditorClassIdentifier: 
+  active: 0
+  mode:
+    m_OverrideState: 1
+    m_Value: 3
+  neutralHDRRangeReductionMode:
+    m_OverrideState: 0
+    m_Value: 2
+  acesPreset:
+    m_OverrideState: 0
+    m_Value: 3
+  hueShiftAmount:
+    m_OverrideState: 0
+    m_Value: 0
+  detectPaperWhite:
+    m_OverrideState: 0
+    m_Value: 0
+  paperWhite:
+    m_OverrideState: 0
+    m_Value: 300
+  detectBrightnessLimits:
+    m_OverrideState: 0
+    m_Value: 1
+  minNits:
+    m_OverrideState: 0
+    m_Value: 0.005
+  maxNits:
+    m_OverrideState: 0
+    m_Value: 1000
+  makeevRemapAggressiveness:
+    m_OverrideState: 1
+    m_Value: 0.98
+--- !u!114 &-6924061626532125767
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce9312bb6bb1c9849b394ff6ebc36315, type: 3}
+  m_Name: ScreenSpaceReflections
+  m_EditorClassIdentifier: 
+  active: 1
+  Quality:
+    m_OverrideState: 1
+    m_Value: 1
+  ColorPrecision:
+    m_OverrideState: 1
+    m_Value: 1
+  TracingMethod:
+    m_OverrideState: 0
+    m_Value: 0
+  MaxRaySteps:
+    m_OverrideState: 1
+    m_Value: 128
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 50
+  ScreenSpaceStepSize:
+    m_OverrideState: 0
+    m_Value: 5
+  MaxRoughness:
+    m_OverrideState: 1
+    m_Value: 1
+  RoughnessFadeStart:
+    m_OverrideState: 1
+    m_Value: 1
+  ObjectThickness:
+    m_OverrideState: 1
+    m_Value: 0.013
+  FresnelPower:
+    m_OverrideState: 1
+    m_Value: 1
+  ConfidenceScale:
+    m_OverrideState: 0
+    m_Value: 1
+  UseUpsamplePass:
+    m_OverrideState: 0
+    m_Value: 1
+  HighlightSupression:
+    m_OverrideState: 0
+    m_Value: 1
+  UseMotionVectorsForReprojection:
+    m_OverrideState: 1
+    m_Value: 1
+  BlurEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  RoughnessRemap:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 1}
+  StochasticSSR:
+    m_OverrideState: 1
+    m_Value: 1
+  ScreenFadeDistance:
+    m_OverrideState: 1
+    m_Value: 0.1
+  HistoryInfluence:
+    m_OverrideState: 1
+    m_Value: 0.95
+  SpeedRejectionScalerFactor:
+    m_OverrideState: 0
+    m_Value: 0.2
+  SpeedRejectionParam:
+    m_OverrideState: 0
+    m_Value: 0.5
+--- !u!114 &-6296114746004156633
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd1efc2dc38ab9f4798afa7302822a90, type: 3}
+  m_Name: BloomEnhanced
+  m_EditorClassIdentifier: 
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 1.5
+  softKnee:
+    m_OverrideState: 1
+    m_Value: 0.4
+  radius:
+    m_OverrideState: 1
+    m_Value: 4.5
+  antiFlicker:
+    m_OverrideState: 0
+    m_Value: 0
+  tint:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  clamp:
+    m_OverrideState: 1
+    m_Value: 4
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-6229343327647587891
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402002ef957e373428d8a1137b4157bf, type: 3}
+  m_Name: WhiteBalance
+  m_EditorClassIdentifier: 
+  active: 0
+  temperature:
+    m_OverrideState: 1
+    m_Value: -100
+  tint:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-5405592669389032840
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006bfdfe3b74dbe4f932b04103841111, type: 3}
+  m_Name: ShadowsMidtonesHighlights
+  m_EditorClassIdentifier: 
+  active: 1
+  shadows:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.9266463, z: 0.9204267, w: 0.016906172}
+  midtones:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 0.98418874, z: 0.9536475, w: 0.008453086}
+  highlights:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 0.9473614, z: 0.8863126, w: 0.052112106}
+  shadowsStart:
+    m_OverrideState: 0
+    m_Value: 0
+  shadowsEnd:
+    m_OverrideState: 0
+    m_Value: 0.3
+  highlightsStart:
+    m_OverrideState: 0
+    m_Value: 0.55
+  highlightsEnd:
+    m_OverrideState: 0
+    m_Value: 1
+--- !u!114 &-3508504478997285000
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 071227c4f1bcb1544a293d7f348bab36, type: 3}
+  m_Name: DepthOfField
+  m_EditorClassIdentifier: 
+  active: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 1
+  gaussianStart:
+    m_OverrideState: 1
+    m_Value: 65
+  gaussianEnd:
+    m_OverrideState: 1
+    m_Value: 220
+  gaussianMaxRadius:
+    m_OverrideState: 1
+    m_Value: 1
+  highQualitySampling:
+    m_OverrideState: 0
+    m_Value: 0
+  focusDistance:
+    m_OverrideState: 1
+    m_Value: 0.1
+  aperture:
+    m_OverrideState: 1
+    m_Value: 7.5
+  focalLength:
+    m_OverrideState: 1
+    m_Value: 17
+  bladeCount:
+    m_OverrideState: 0
+    m_Value: 5
+  bladeCurvature:
+    m_OverrideState: 0
+    m_Value: 1
+  bladeRotation:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-3267667525132620490
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de0ab5517ef5f149a8bc6caa3bb2d59, type: 3}
+  m_Name: LiftGammaGain
+  m_EditorClassIdentifier: 
+  active: 1
+  lift:
+    m_OverrideState: 1
+    m_Value: {x: 0.97352535, y: 0.98998284, z: 1, w: -0.009189753}
+  gamma:
+    m_OverrideState: 1
+    m_Value: {x: 0.99430525, y: 1, z: 0.9970264, w: 0.041310895}
+  gain:
+    m_OverrideState: 1
+    m_Value: {x: 0.9434827, y: 0.9655947, z: 1, w: -0.0035176512}
+--- !u!114 &-2754222260288073859
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef728dd42f86204f99504e77336a8df, type: 3}
+  m_Name: ColorAdjustments
+  m_EditorClassIdentifier: 
+  active: 1
+  postExposure:
+    m_OverrideState: 0
+    m_Value: 0.2
+  contrast:
+    m_OverrideState: 1
+    m_Value: 4
+  colorFilter:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  hueShift:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 1
+    m_Value: 6.5
+--- !u!114 &-508042864959674016
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab54abe3e13b9be40b32660133fd757f, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 1
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0.21960784, g: 0.09099638, b: 0.04313725, a: 1}
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.217
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 0.287
+  rounded:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &-371759071489239558
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89e9444a6e6e8d745b6f618f62944813, type: 3}
+  m_Name: Hbao
+  m_EditorClassIdentifier: 
+  active: 1
+  Quality:
+    m_OverrideState: 1
+    m_Value: 2
+  Deinterleaving:
+    m_OverrideState: 0
+    m_Value: 0
+  Resolution:
+    m_OverrideState: 1
+    m_Value: 0
+  NoiseType:
+    m_OverrideState: 1
+    m_Value: 1
+  Radius:
+    m_OverrideState: 1
+    m_Value: 1.58
+  MaxRadiusPixels:
+    m_OverrideState: 1
+    m_Value: 235
+  Bias:
+    m_OverrideState: 1
+    m_Value: 0.336
+  Intensity:
+    m_OverrideState: 1
+    m_Value: 3.1
+  UseMultiBounce:
+    m_OverrideState: 0
+    m_Value: 0
+  MultiBounceInfluence:
+    m_OverrideState: 0
+    m_Value: 0
+  MaxDistance:
+    m_OverrideState: 1
+    m_Value: 42.07
+  DistanceFalloff:
+    m_OverrideState: 1
+    m_Value: 68.02
+  BaseColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  ColorBleedingEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  Saturation:
+    m_OverrideState: 0
+    m_Value: 1
+  AlbedoMultiplier:
+    m_OverrideState: 0
+    m_Value: 4
+  BrightnessMask:
+    m_OverrideState: 0
+    m_Value: 1
+  BrightnessMaskRange:
+    m_OverrideState: 0
+    m_Value: {x: 0.8, y: 1.2}
+  BlurAmount:
+    m_OverrideState: 1
+    m_Value: 1
+  Sharpness:
+    m_OverrideState: 1
+    m_Value: 16
+  Downsample:
+    m_OverrideState: 1
+    m_Value: 0
+--- !u!114 &-322108679425189421
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd765f2634d86314c8496b85e45a26f8, type: 3}
+  m_Name: ColorCurves
+  m_EditorClassIdentifier: 
+  active: 0
+  master:
+    m_OverrideState: 0
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  red:
+    m_OverrideState: 0
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  green:
+    m_OverrideState: 0
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  blue:
+    m_OverrideState: 0
+    m_Value:
+      <length>k__BackingField: 2
+      m_Loop: 0
+      m_ZeroValue: 0
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  hueVsHue:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 0
+      m_Loop: 1
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  hueVsSat:
+    m_OverrideState: 1
+    m_Value:
+      <length>k__BackingField: 5
+      m_Loop: 1
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.6048951
+          value: 0.50545454
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.67132866
+          value: 0.58909094
+          inSlope: 2.9461167
+          outSlope: 2.9461167
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.78496504
+          value: 0.8436364
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.8951049
+          value: 0.55636364
+          inSlope: -2.3055074
+          outSlope: -2.3055074
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.99825174
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  satVsSat:
+    m_OverrideState: 0
+    m_Value:
+      <length>k__BackingField: 0
+      m_Loop: 0
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+  lumVsSat:
+    m_OverrideState: 0
+    m_Value:
+      <length>k__BackingField: 3
+      m_Loop: 0
+      m_ZeroValue: 0.5
+      m_Range: 1
+      m_Curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0.70886075
+          value: 0.50163937
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.8306962
+          value: 0.8590164
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.9208861
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Ch1_ForestOfArden_Sunlight_PostProcessSettings
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: -7691502037222708944}
+  - {fileID: -6229343327647587891}
+  - {fileID: -2754222260288073859}
+  - {fileID: 5599695344904955540}
+  - {fileID: -322108679425189421}
+  - {fileID: -3267667525132620490}
+  - {fileID: -5405592669389032840}
+  - {fileID: -508042864959674016}
+  - {fileID: -3508504478997285000}
+  - {fileID: 1211936204232315787}
+  - {fileID: -6296114746004156633}
+  - {fileID: 8565969026569350100}
+  - {fileID: -6924061626532125767}
+  - {fileID: 6823658053077869715}
+  - {fileID: 4693048318514357891}
+  - {fileID: -8900553574721796009}
+--- !u!114 &1211936204232315787
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fab730b65fa7da4c8d60491baf7e486, type: 3}
+  m_Name: FilmGrain
+  m_EditorClassIdentifier: 
+  active: 0
+  type:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.2
+  response:
+    m_OverrideState: 1
+    m_Value: 0.355
+  texture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+--- !u!114 &4693048318514357891
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bd486065ce11414fa40e631affc4900, type: 3}
+  m_Name: ProbeVolumesOptions
+  m_EditorClassIdentifier: 
+  active: 1
+  normalBias:
+    m_OverrideState: 0
+    m_Value: 0.05
+  viewBias:
+    m_OverrideState: 0
+    m_Value: 0.1
+  scaleBiasWithMinProbeDistance:
+    m_OverrideState: 0
+    m_Value: 0
+  samplingNoise:
+    m_OverrideState: 0
+    m_Value: 0.1
+  animateSamplingNoise:
+    m_OverrideState: 0
+    m_Value: 1
+  leakReductionMode:
+    m_OverrideState: 1
+    m_Value: 2
+  minValidDotProductValue:
+    m_OverrideState: 0
+    m_Value: 0.1
+  occlusionOnlyReflectionNormalization:
+    m_OverrideState: 0
+    m_Value: 1
+  intensityMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  skyOcclusionIntensityMultiplier:
+    m_OverrideState: 0
+    m_Value: 1
+  worldOffset:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+--- !u!114 &5599695344904955540
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc057274b059c74387a98d31e141565, type: 3}
+  m_Name: ChannelMixer
+  m_EditorClassIdentifier: 
+  active: 0
+  redOutRedIn:
+    m_OverrideState: 1
+    m_Value: 84
+  redOutGreenIn:
+    m_OverrideState: 0
+    m_Value: 0
+  redOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 0
+  greenOutRedIn:
+    m_OverrideState: 0
+    m_Value: 0
+  greenOutGreenIn:
+    m_OverrideState: 0
+    m_Value: 100
+  greenOutBlueIn:
+    m_OverrideState: 0
+    m_Value: 0
+  blueOutRedIn:
+    m_OverrideState: 0
+    m_Value: 0
+  blueOutGreenIn:
+    m_OverrideState: 0
+    m_Value: 0
+  blueOutBlueIn:
+    m_OverrideState: 1
+    m_Value: 112
+--- !u!114 &6823658053077869715
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581188582b268df43a0c5d041c85368f, type: 3}
+  m_Name: HBAO
+  m_EditorClassIdentifier: 
+  active: 1
+  preset:
+    m_OverrideState: 1
+    m_Value: 1
+  mode:
+    m_OverrideState: 1
+    m_Value: 0
+  renderingPath:
+    m_OverrideState: 0
+    m_Value: 0
+  quality:
+    m_OverrideState: 1
+    m_Value: 1
+  deinterleaving:
+    m_OverrideState: 0
+    m_Value: 0
+  resolution:
+    m_OverrideState: 0
+    m_Value: 0
+  noiseType:
+    m_OverrideState: 0
+    m_Value: 2
+  debugMode:
+    m_OverrideState: 0
+    m_Value: 0
+  radius:
+    m_OverrideState: 1
+    m_Value: 1.53
+  maxRadiusPixels:
+    m_OverrideState: 1
+    m_Value: 33
+  bias:
+    m_OverrideState: 1
+    m_Value: 0.06
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1.513
+  useMultiBounce:
+    m_OverrideState: 0
+    m_Value: 0
+  multiBounceInfluence:
+    m_OverrideState: 0
+    m_Value: 1
+  directLightingStrength:
+    m_OverrideState: 0
+    m_Value: 0.25
+  offscreenSamplesContribution:
+    m_OverrideState: 0
+    m_Value: 0
+  maxDistance:
+    m_OverrideState: 1
+    m_Value: 100
+  distanceFalloff:
+    m_OverrideState: 1
+    m_Value: 20
+  perPixelNormals:
+    m_OverrideState: 0
+    m_Value: 2
+  baseColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.14899999, g: 0.08269254, b: 0.048573993, a: 1}
+  temporalFilterEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  varianceClipping:
+    m_OverrideState: 0
+    m_Value: 1
+  blurType:
+    m_OverrideState: 1
+    m_Value: 3
+  sharpness:
+    m_OverrideState: 0
+    m_Value: 8
+  colorBleedingEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  saturation:
+    m_OverrideState: 0
+    m_Value: 1
+  brightnessMask:
+    m_OverrideState: 0
+    m_Value: 1
+  brightnessMaskRange:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0.5}
+    min: 0
+    max: 2
+--- !u!114 &8565969026569350100
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b9c67864fddf143a2c1fb8541813f5, type: 3}
+  m_Name: VolumetricFog
+  m_EditorClassIdentifier: 
+  active: 1
+  FogEnabled:
+    m_OverrideState: 1
+    m_Value: 1
+  Anisotropy:
+    m_OverrideState: 1
+    m_Value: -0.485
+  FogDistanceAttenuation:
+    m_OverrideState: 1
+    m_Value: 800
+  Albedo:
+    m_OverrideState: 0
+    m_Value: {r: 0.5330188, g: 0.8222851, b: 1, a: 0.2901961}
+  AmbientLightMultiplier:
+    m_OverrideState: 0
+    m_Value: 27.7
+  HeightFogEnabled:
+    m_OverrideState: 0
+    m_Value: 0
+  BaseHeight:
+    m_OverrideState: 1
+    m_Value: 100
+  FogHeight:
+    m_OverrideState: 0
+    m_Value: 32

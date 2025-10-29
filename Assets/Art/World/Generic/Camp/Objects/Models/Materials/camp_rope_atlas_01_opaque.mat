@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: camp_rope_atlas_01_opaque
+  m_Shader: {fileID: 4800000, guid: 222b820ce1ddd0649b7c8cfcf101ee4f, type: 3}
+  m_Parent: {fileID: 2100000, guid: 0ad66d72c9265d74c93bd85bd627d4a9, type: 2}
+  m_ModifiedSerializedProperties: 24
+  m_ValidKeywords:
+  - _MASKSMAP
+  - _NORMALMAP
+  m_InvalidKeywords:
+  - 
+  - XPBD_NONE
+  - _RECEIVEDECALS_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+    VT_STACK_0_LAYER_0: 0760618c7e4e52a47a9552f6429e4f37
+    VT_STACK_0_LAYER_1: 401d486116c1d42418ef965ee2683a16
+    VT_STACK_0_LAYER_3: 439759655e44cd447a95b51d434162b8
+  disabledShaderPasses:
+  - DistortionVectors
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 0760618c7e4e52a47a9552f6429e4f37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 401d486116c1d42418ef965ee2683a16, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 0760618c7e4e52a47a9552f6429e4f37, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 2800000, guid: 439759655e44cd447a95b51d434162b8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alphatest: 0
+    - _CullMode: 2
+    - _DoubleSided: 0
+    - _ShadowsCullMode: 2
+    m_Colors: []
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: arden_forest_ash_cap_treeopaque
+  m_Shader: {fileID: -6465566751694194690, guid: f383d5bb7a03a694f8274ff4a4ed7104, type: 3}
+  m_Parent: {fileID: 2100000, guid: 3e54a83008427c3499d7638de8353ddf, type: 2}
+  m_ModifiedSerializedProperties: 16
+  m_ValidKeywords:
+  - OCCLUDED_OBJECT_CLIP
+  - _BACKFACENORMALSMODE_FLIP
+  - _ISBARK
+  m_InvalidKeywords:
+  - 
+  - XPBD_NONE
+  - _MASKSMAP
+  - _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    VT_STACK_0_LAYER_0: ee9c3bdffc899504ead599d8a3495de3
+    VT_STACK_0_LAYER_1: 83ced384fe81e764a87569d0116a00b9
+    VT_STACK_0_LAYER_3: ccc02b54abae39a4d807aa545914d571
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ee9c3bdffc899504ead599d8a3495de3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 83ced384fe81e764a87569d0116a00b9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 2800000, guid: ccc02b54abae39a4d807aa545914d571, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors:
+    - _Amplitude_BranchMovement: {r: -0.05, g: -0.2, b: -0.05, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

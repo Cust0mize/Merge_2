@@ -1,0 +1,1328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &23639238271119179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7941754127144286884}
+  - component: {fileID: 3962905687405290330}
+  m_Layer: 0
+  m_Name: Mechanics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7941754127144286884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23639238271119179}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3962905687405290330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23639238271119179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1186291683254872193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8980218762661430858}
+  - component: {fileID: 979845128193050337}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8980218762661430858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186291683254872193}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17996089, y: -0.23873089, z: 0.0828511, w: 0.95066154}
+  m_LocalPosition: {x: -2.9989347, y: 1.6113659, z: 4.170674}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 22.44, y: -27.312, z: 4.443}
+--- !u!65 &979845128193050337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186291683254872193}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &1276806419721307504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5475003838476143036}
+  - component: {fileID: 7505428379588505064}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5475003838476143036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276806419721307504}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.15220477, y: -0.44266173, z: 0.11578366, w: 0.87605846}
+  m_LocalPosition: {x: -3.4090705, y: 2.0253513, z: 2.8518522}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 21.665, y: -52.809, z: 4.203}
+--- !u!65 &7505428379588505064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276806419721307504}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.4467187, y: 0.86250424, z: 1.6318111}
+  m_Center: {x: -0.24504231, y: -0.06874845, z: 0.31590664}
+--- !u!1 &1331907605905798648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287480542851002313}
+  - component: {fileID: 3926478006878572019}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287480542851002313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331907605905798648}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.15220477, y: -0.44266173, z: 0.11578366, w: 0.87605846}
+  m_LocalPosition: {x: -4.2719874, y: 1.6898218, z: 3.38}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 21.665, y: -52.809, z: 4.203}
+--- !u!65 &3926478006878572019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331907605905798648}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &1413245787476918145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7963997091882882510}
+  - component: {fileID: 25227565515164459}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7963997091882882510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413245787476918145}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.16136883, y: 0.4050035, z: -0.083156854, w: 0.8961123}
+  m_LocalPosition: {x: 4.042, y: 2.017358, z: 2.328}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 20.889, y: 48.435, z: -1.124}
+--- !u!65 &25227565515164459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413245787476918145}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.4467187, y: 0.67940676, z: 1.6318111}
+  m_Center: {x: -0.2450423, y: -0.1602972, z: 0.31590664}
+--- !u!1 &1665759315161994419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2925111289277612206}
+  - component: {fileID: 5026016670798448960}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2925111289277612206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665759315161994419}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.16136883, y: 0.4050035, z: -0.083156854, w: 0.8961123}
+  m_LocalPosition: {x: 4.738, y: 1.704, z: 3.072}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 20.889, y: 48.435, z: -1.124}
+--- !u!65 &5026016670798448960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1665759315161994419}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &2138827937734129796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3265445072528659643}
+  - component: {fileID: 7313162352173830298}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3265445072528659643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138827937734129796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.1360549, y: 0.7166527, z: -0.15591985, w: 0.6660234}
+  m_LocalPosition: {x: 5.303895, y: 1.498, z: 0.4709929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 23.873, y: 94.026, z: -0.795}
+--- !u!65 &7313162352173830298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138827937734129796}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.748286}
+  m_Center: {x: -0.37140146, y: -0.16905642, z: 0.102327645}
+--- !u!1 &2917873778350631244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2610011270328322178}
+  - component: {fileID: 6448791812843485654}
+  m_Layer: 0
+  m_Name: Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2610011270328322178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917873778350631244}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7963997091882882510}
+  - {fileID: 5475003838476143036}
+  - {fileID: 2925111289277612206}
+  - {fileID: 1287480542851002313}
+  - {fileID: 4508986299649794}
+  - {fileID: 8172917908986281095}
+  - {fileID: 5401350232640597935}
+  - {fileID: 4396505539483842227}
+  - {fileID: 2630297294332157593}
+  - {fileID: 8980218762661430858}
+  - {fileID: 3265445072528659643}
+  - {fileID: 5530923482536038552}
+  - {fileID: 5317625023339593856}
+  - {fileID: 2427844112620935090}
+  - {fileID: 6686910732685864913}
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6448791812843485654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2917873778350631244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &3492163119582270025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2630297294332157593}
+  - component: {fileID: 1088710569686237774}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2630297294332157593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492163119582270025}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.16131298, y: 0.5886079, z: -0.12961507, w: 0.781485}
+  m_LocalPosition: {x: 5.21106, y: 1.498, z: 1.6628299}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 23.873, y: 73.805, z: -0.795}
+--- !u!65 &1088710569686237774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492163119582270025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &4187476497759363104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158235420724114268}
+  - component: {fileID: 6878515996865016180}
+  m_Layer: 0
+  m_Name: FX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1158235420724114268
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187476497759363104}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6878515996865016180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187476497759363104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4496516465111262621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5530923482536038552}
+  - component: {fileID: 8695450971445459475}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5530923482536038552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4496516465111262621}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17871162, y: -0.06983301, z: 0.04237891, w: 0.9805048}
+  m_LocalPosition: {x: -1.8625398, y: 1.7044222, z: 4.5298977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 20.878, y: -7.49, z: 3.568}
+--- !u!65 &8695450971445459475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4496516465111262621}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &4844737201055038297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4508986299649794}
+  - component: {fileID: 3648462646730723276}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4508986299649794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844737201055038297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.17695467, y: 0.17001708, z: -0.04052161, w: 0.96857595}
+  m_LocalPosition: {x: 3.3666272, y: 1.704, z: 4.0774927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 20.889, y: 19.705, z: -1.124}
+--- !u!65 &3648462646730723276
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844737201055038297}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &5195887104200548289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5317625023339593856}
+  - component: {fileID: 8580578819198437837}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5317625023339593856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5195887104200548289}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.12716207, y: -0, z: -0, w: 0.991882}
+  m_LocalPosition: {x: 1.027, y: 2.0014477, z: 4.3101435}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 14.611, y: 0, z: 0}
+--- !u!65 &8580578819198437837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5195887104200548289}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.7765713, y: 0.6618893, z: 1.6318111}
+  m_Center: {x: -0.6202221, y: -0.16905664, z: 0.3159058}
+--- !u!1 &5453634418414942343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8640903950681390723}
+  - component: {fileID: 2604193459968344932}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8640903950681390723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5453634418414942343}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2604193459968344932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5453634418414942343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5664192003576379341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5401350232640597935}
+  - component: {fileID: 5804876150995369113}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5401350232640597935
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664192003576379341}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18720397, y: -0.6990623, z: 0.21087813, w: 0.65711266}
+  m_LocalPosition: {x: -4.667, y: 1.4196701, z: 0.7951609}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 32.742, y: -93.235, z: 1.05}
+--- !u!65 &5804876150995369113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5664192003576379341}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.398091, y: 0.9872601, z: 1.4764699}
+  m_Center: {x: 0.08001995, y: -0.0063712, z: 0.2382362}
+--- !u!1 &6256496511088754523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6686910732685864913}
+  - component: {fileID: 4050586619760354283}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6686910732685864913
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6256496511088754523}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.045325566, y: 0.015816338, z: -0.015303296, w: 0.9987298}
+  m_LocalPosition: {x: 2.3882391, y: 1.52, z: 0.21015161}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: -5.167, y: 1.898, z: -1.841}
+--- !u!65 &4050586619760354283
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6256496511088754523}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.096142, y: 1, z: 2.2838829}
+  m_Center: {x: -2.2611792, y: 0.0000024899512, z: 0.6419414}
+--- !u!1 &6349509461033962204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767698507017916937}
+  - component: {fileID: 1984168699360061676}
+  m_Layer: 0
+  m_Name: FOW Blockers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1767698507017916937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349509461033962204}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1984168699360061676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6349509461033962204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6432807169901762436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7290697492662462815}
+  - component: {fileID: 1200688884979808523}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7290697492662462815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432807169901762436}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7184638377661570706}
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1200688884979808523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6432807169901762436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7105976850110438149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8172917908986281095}
+  - component: {fileID: 5305086317202913952}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8172917908986281095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105976850110438149}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.13910195, y: -0.6447834, z: 0.15640272, w: 0.7351485}
+  m_LocalPosition: {x: -4.9340644, y: 1.5517784, z: 1.8197831}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 23.967, y: -81.833, z: 3.173}
+--- !u!65 &5305086317202913952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7105976850110438149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3789277, y: 0.6618893, z: 1.4764699}
+  m_Center: {x: -0.37140086, y: -0.1690564, z: 0.23823617}
+--- !u!1 &7631641356346184915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6241495380833977804}
+  - component: {fileID: 4673182356283173139}
+  m_Layer: 0
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6241495380833977804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7631641356346184915}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7114730998742022627}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4673182356283173139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7631641356346184915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8086331876406745856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4396505539483842227}
+  - component: {fileID: 2786690642982986734}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4396505539483842227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8086331876406745856}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.19796033, y: -0.016512372, z: 0.017126335, w: 0.97992134}
+  m_LocalPosition: {x: 0.233, y: 1.3829613, z: 4.798}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 22.863, y: -1.591, z: 1.681}
+--- !u!65 &2786690642982986734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8086331876406745856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.398091, y: 0.9872601, z: 1.4764699}
+  m_Center: {x: 0.08001995, y: -0.0063712, z: 0.2382362}
+--- !u!1 &8239501658578287179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2427844112620935090}
+  - component: {fileID: 8301206171493447534}
+  m_Layer: 8
+  m_Name: arden_forest_ledge_09_Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2427844112620935090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8239501658578287179}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.105962686, y: -0, z: -0, w: 0.99437016}
+  m_LocalPosition: {x: 1.012, y: 1.99, z: 2.467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2610011270328322178}
+  m_LocalEulerAnglesHint: {x: 12.165, y: 0, z: 0}
+--- !u!65 &8301206171493447534
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8239501658578287179}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.9203777, y: 1, z: 2.2838829}
+  m_Center: {x: -0.6088859, y: -0.00000006888896, z: 0.6419414}
+--- !u!1 &8340218358063168962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7114730998742022627}
+  - component: {fileID: 6667499173056095379}
+  m_Layer: 0
+  m_Name: arden_forest_ledge_09
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7114730998742022627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340218358063168962}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7941754127144286884}
+  - {fileID: 2610011270328322178}
+  - {fileID: 1767698507017916937}
+  - {fileID: 1158235420724114268}
+  - {fileID: 6241495380833977804}
+  - {fileID: 8640903950681390723}
+  - {fileID: 7290697492662462815}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6667499173056095379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8340218358063168962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed81025ed1c21b74ca767bdf46c26139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MechanicsRoot: {fileID: 23639238271119179}
+  CollidersRoot: {fileID: 2917873778350631244}
+  FowBlockersRoot: {fileID: 6349509461033962204}
+  SoundRoot: {fileID: 5453634418414942343}
+  FxRoot: {fileID: 4187476497759363104}
+  LightsRoot: {fileID: 7631641356346184915}
+  VisualRoot: {fileID: 6432807169901762436}
+  ShadowProxies: []
+  SurfaceHitObjects: []
+  NoOccludedObjectClipRenderers: []
+  m_OcclusionGeometryGroupId: 0
+--- !u!1001 &2086269051929258758
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7290697492662462815}
+    m_Modifications:
+    - target: {fileID: 7521027150661771285, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521027150661771285, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_AdditionalVertexStreams
+      value: 
+      objectReference: {fileID: 8452621961325655481, guid: 27fedf8c3afad3e4fa146cf045fb866a, type: 3}
+    - target: {fileID: 7521027150661771285, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8288933182262844588, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_Name
+      value: arden_forest_ledge_09_!Visual
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8288933182262844588, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4903181628729727719}
+    - targetCorrespondingSourceObject: {fileID: 8288933182262844588, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1455063145044299294}
+    - targetCorrespondingSourceObject: {fileID: 8288933182262844588, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 467866686848003919}
+  m_SourcePrefab: {fileID: 100100000, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+--- !u!4 &7184638377661570706 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9171330157943354772, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+  m_PrefabInstance: {fileID: 2086269051929258758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8069287756651296682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8288933182262844588, guid: 608d0d0b8640f2d49a9ca66b34714d6d, type: 3}
+  m_PrefabInstance: {fileID: 2086269051929258758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4903181628729727719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069287756651296682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e2b919f4b6497fbe8d9623e10cff9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1455063145044299294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069287756651296682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d6504fa53054fd39ef22549180ab05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Channels: 3
+  m_IsCompressed: 1
+  m_RawColors: 
+  m_ExternalAsset: {fileID: 3838954580393042665}
+  m_InlineAsset: {fileID: 0}
+  m_ColorsCount: 1000
+  m_LODFadeColor: {r: 0, g: 0, b: 0, a: 0}
+  m_LODFadeStart: 1
+--- !u!114 &467866686848003919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8069287756651296682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e705e2f7df2b4e4fad872dd2b0bbd077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3838954580393042665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1e98a6e23a4b3a851d7cbc295206c3, type: 3}
+  m_Name: VertexColorExternalData_79d53df7476cb6f43be4e04d03e7e674
+  m_EditorClassIdentifier: 
+  RawColors: bbccbbcceeddeeffddffffffffffddcceeccddffeeeeeeffeeffffffcccceeeeeebbbbddddddddffffbbddeeeebbddddeeccddddcceebbddddddddddddddddddeeeeeeffeeeeeeddeeffee88eeccddddeeddddffffffffeeeeffeeeeffeeeeeeddeeddffeeddeeddeeddddddeeddeeffddffddccaaccddddaa88bb66ddddaa00aa77ffeeffffeeffffffffffffffffffffffffffffffffddccffffffffffffffffffffffffffffffffffffffffffffffffeeffffffffffffffffffffffffffffffffffffffffffffffffffffffeeeeffffffffffffffffffffffffffffffffffffffffffffffffffffffeeeeeeeeffffffffeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeeffffffffffffffffddffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeeffffffffffffffffffeeffffddffffffffffffffffcc88ffff4400ddffffffffffffffff5511ffffff4477aaccffffffffaaeeffddeeeeeeddeeeeeeeeddffeeffeeffeeddffddddddddddeeddeecceebbccddddddcceeeeeeffffbbccddddddddddddddddddddddddddddddeeddddddddffddffddddddddffffeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeeffffffffffffffeeeeeebbeeeeeeffddeeddccddddbb99aaccddeeddccddddddddddeeeeddffffddeeeeeeffffeeeeddeeccffffffffffffddccffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffeeffddffffffffeeffffffffffffffffffffffffffffffffffffffffffffffffffffffffeeeeffffffffffffffffffffffffffffffeeffeeeeeeeeeeeeeeddeeeeeeddeeeeddeeddccddddddddeeddddddddccccccccccccccccccccccccccccddccccccddcceeddddddddddddeeeeddddddeeddeeccccaaaaddddddddccccccccccccccbbddddbbccccccbbbbbbccbbccccccccbbbbccbbccffddbbcceeeeeeeeccccccbbddccccbbeeddaaeebbcceecceeccbbeeeebbddddddccddddccccccccddccddddddddddddddddddddddddddddddddddddddddddddddeeddeeddddeeeeffffffddeecc99bbeeddeeddddddddeeddddddddffddddccbbccccccddbbbbddddddccddddaaddcceeccccddbbbbcccccceebbddccccccbbccddeeccddddccddcc99aaeeeeddccddbbffccddffffeeeeddddddeeffffeeccaaccbbccddffccddeeddeeddddccddccccddccbbbbccddddddccddeeccddddddeeeeddddffeeddccbbccccccddaaccdd

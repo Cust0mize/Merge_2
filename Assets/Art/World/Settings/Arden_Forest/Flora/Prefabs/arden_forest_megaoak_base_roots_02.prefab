@@ -1,0 +1,550 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1868751123064347931
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6744044304944890680}
+  - component: {fileID: 4155324794804865993}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6744044304944890680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868751123064347931}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6142370906754438714}
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4155324794804865993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868751123064347931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2082566558057096701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3394699362807386816}
+  - component: {fileID: 988322068764562409}
+  m_Layer: 0
+  m_Name: Colliders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3394699362807386816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082566558057096701}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4542492561846672313}
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &988322068764562409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082566558057096701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2602208936228816492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4542492561846672313}
+  m_Layer: 0
+  m_Name: arden_forest_megaoak_base_roots_02_Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4542492561846672313
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602208936228816492}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3394699362807386816}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3773927962546780413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8142713302416327505}
+  - component: {fileID: 266522894202627570}
+  m_Layer: 0
+  m_Name: FOW Blockers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8142713302416327505
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773927962546780413}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &266522894202627570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773927962546780413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &4076776500855537690
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7900219466073474253}
+  - component: {fileID: 7939131110062825249}
+  m_Layer: 0
+  m_Name: Mechanics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7900219466073474253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076776500855537690}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7939131110062825249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4076776500855537690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5367121429818788620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5486547981586935154}
+  - component: {fileID: 7569246502269194129}
+  m_Layer: 0
+  m_Name: Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5486547981586935154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5367121429818788620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7569246502269194129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5367121429818788620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &7806525092225857102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8872039944592955271}
+  - component: {fileID: 885910681692622099}
+  m_Layer: 0
+  m_Name: arden_forest_megaoak_base_roots_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8872039944592955271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806525092225857102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7900219466073474253}
+  - {fileID: 3394699362807386816}
+  - {fileID: 8142713302416327505}
+  - {fileID: 6307318909560499543}
+  - {fileID: 5486547981586935154}
+  - {fileID: 4298540100484139152}
+  - {fileID: 6744044304944890680}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &885910681692622099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7806525092225857102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed81025ed1c21b74ca767bdf46c26139, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MechanicsRoot: {fileID: 4076776500855537690}
+  CollidersRoot: {fileID: 2082566558057096701}
+  FowBlockersRoot: {fileID: 3773927962546780413}
+  SoundRoot: {fileID: 8413867909703759902}
+  FxRoot: {fileID: 8490502619153241029}
+  LightsRoot: {fileID: 5367121429818788620}
+  VisualRoot: {fileID: 1868751123064347931}
+  ShadowProxies: []
+  SurfaceHitObjects: []
+  NoOccludedObjectClipRenderers: []
+  m_OcclusionGeometryGroupId: 0
+--- !u!1 &8413867909703759902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4298540100484139152}
+  - component: {fileID: 770992143821158277}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4298540100484139152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413867909703759902}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &770992143821158277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8413867909703759902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8490502619153241029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6307318909560499543}
+  - component: {fileID: 2805484351694668548}
+  m_Layer: 0
+  m_Name: FX
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6307318909560499543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490502619153241029}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8872039944592955271}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2805484351694668548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8490502619153241029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a4b0449a80bbae46b67ce1ac394fb1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &2474108990900896968
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 6744044304944890680}
+    m_Modifications:
+    - target: {fileID: 1673278341054275358, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673278341054275358, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_AdditionalVertexStreams
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1673278341054275358, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_SelectedEditorRenderState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5254075473745227118, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_Name
+      value: arden_forest_megaoak_base_roots_02_!Visual
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5254075473745227118, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3891087715006749357}
+    - targetCorrespondingSourceObject: {fileID: 5254075473745227118, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3454084941406477379}
+    - targetCorrespondingSourceObject: {fileID: 5254075473745227118, guid: 45af07c076cf4354095708a207d93312, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7991384480171785947}
+  m_SourcePrefab: {fileID: 100100000, guid: 45af07c076cf4354095708a207d93312, type: 3}
+--- !u!4 &6142370906754438714 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8605209896959693554, guid: 45af07c076cf4354095708a207d93312, type: 3}
+  m_PrefabInstance: {fileID: 2474108990900896968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7692135839300757926 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5254075473745227118, guid: 45af07c076cf4354095708a207d93312, type: 3}
+  m_PrefabInstance: {fileID: 2474108990900896968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3891087715006749357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692135839300757926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e2b919f4b6497fbe8d9623e10cff9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3454084941406477379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692135839300757926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d6504fa53054fd39ef22549180ab05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Channels: 3
+  m_IsCompressed: 1
+  m_RawColors: 
+  m_ExternalAsset: {fileID: -3366473749293444369}
+  m_InlineAsset: {fileID: 0}
+  m_ColorsCount: 8067
+  m_LODFadeColor: {r: 0, g: 0, b: 0, a: 0}
+  m_LODFadeStart: 1
+--- !u!114 &7991384480171785947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7692135839300757926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e705e2f7df2b4e4fad872dd2b0bbd077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3366473749293444369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1e98a6e23a4b3a851d7cbc295206c3, type: 3}
+  m_Name: VertexColorExternalData_ab287fb05f1ebef418ffe3d89961e17e
+  m_EditorClassIdentifier: 
+  RawColors: 555555998899ddddddbbccccbbbbbbbbbbbb998899888888888888888888888888888888888888888899888888888888888899aa8888889999aabb998899aaaaaabbaa99aaaaaaaabbaaaaaaaaaaaabbaabbaaaaaabbbbaabbaaaaaabbbbaabbaaaabbbbccaabb99aabbccccaabbaaaabbccccbbbbaaaabbccddbbccaabbbbddddbbccaabbccddeeccccbbbbccddeeccddbbbbddddddccddccccddddddddeeccccddddddddeeccddddddddddddddccccccddddddddccccccccddddccccbbccccddddccbbbbbbccccddccbbbbbbbbccccbbbbaaaaaaccccbbaa9999aaccccbb99999999bbbbaa99999999bbaaaa99998888aaaaaa999988889999999988888899999988888888888888888888888888888888887788888888887755888888887766558888887766552222552277664411777755441155554411552255225522005500003366001100557722660044668855555522445533668888556644668888997777667799999977887788999999888877889999998899778899999988998888999999889988889999998899888899999988998899999988999999998899889999999999998899999999999999888899999999998888889999aaaa8888889999aacc88998899aabbdd999999aabbddeeaaaaaaaaccddeebbccbbbbcceeddddddccccddddddddeeccccddddccddeeddddccccbbddddddccccbbbbddddccccbbbbaaccccccccbbaaaaaabbaaccbbbbbbbbbbbbbbbbbbbbbbaaaaaa9999889999889999998899999988889999999988889999889988889988888888889999888877888888888888778888888888777788888888887777887788888877777777778888888877777788888888777777888888997777778888999988888888999999888888999999aa99999999aaaaaa999999aaaaaabbaa99aaaaaabbbbaaaaaaaabbbbbbaaaabbbbbbbbccbbbbbbbbccccccbbbbbbccccccccbbbbccccddddddccccccccddddddccccccddddeeddccccccddeeeeeeccddddddeeeeddddddddddeeeeddddddddeeeeddddddeeddeeddddccddddddddddddccddddddddddccccddddddddddccbbccccddddccccbbccccccccccbbaaccccccbbbbbbaabbbbbbbbbbbbaaaabbaaaabbaa99aaaaaaaaaaaa9999aa99aaaaaa9999aa9999aaaaaa99999999aaaa9999999999aaaa9999999999aaaa9999aa9999aa998899999999999988889988999999888899888899887788888888888877888888888877667788778877775577777777776644667777666644336666666644332255555544333322223333443333223344332222223322222222eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddddeeeeddddddeeeeddddddddddddddccddddddddccddddccccccccccccccbbccccccbbaaccccbbaa99bbbbaa9999aaaa999988889999998899998888bbccbbbbccbbbbccbbbbbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccbbbbbbaabbbbccbbbb99bbbbbb9999bbbbaaaabb999999aaaabbaa9999bbbbbbaabbccbbbbbbaaaabbbbbbaaaaaabbaabbaaaaaaaaaa99999999aaaa99aaaaaa99aaaaaa9999aaaa99aaaaaa9977aaaa998877776688aaaaaa77778899aa777788887788778888aa9988888877999988887755999988884422889988660000888888330000888866000000888833000000887700000000884400000000770000000000550000000000220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002200004455000077774444888877668888888888778888777788887766888866777777777777887799778899998888999999999999aaaa999999aa9999aa99bbbbbbbbbbbbbbbbbbbbbbbbbbccddbbbbbbcceeeebbbbbbcceeeeddbbbbbbbbddeeddccbbbbbbbbddeeddccccbbbbbbccddccddbbbbbbddbbccbbbbbbbbbbaaddddddddddeeeeeeeeeeeeddddddddddddccccccccccccccddccccccccccddddeeeeeeddccddddbbaabbaa99ccddaa9999ccbbaa9999999999aabbcc99999999aa998899999988998866bb9999996655aa999988555599999977555599998855555599996655555599885555555588666655666677665555776655665566775566555577555566556677555555556655556666667777667777775566666655556655556655555555556655555555666666665566556655225555555544220044444422000000001111000000000000000000000000000000000000000000006666666655555555555555555555555566556655448844778844889977669999888899999999999999999999999999aa9999aaaa99aabbbbaabbbbddbbccddccccdd8877778877888888888888889999888899999999889999999999999999999999999999999999aa9999aaaa9999aa99999999999999999999999999aa999999aaaa99aaaaaa99aaaaaaaaaabbbbaabbbbbbaabbccbbbbccccbbbbccccccccccbbbbccbbbbbbbbbbaaaabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa99887788aa889988aa9977aa9977aa9977aaaa997799aa99aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbaaaaaaaabbbbbbaabbaaaaaabbbbbbaaaabbbbbbbbbbccbbbbbbbbbbaaaabbbbbbaaaaaabbbb9999aaaabb9999aaaaaa999999aaaa99999999aa999999999999999999999999999999aa99999999aaaa9999999999999999999999999988889999998888888899998888889999998888999999999988999988999988889988779999998899999999998888884488777777777788888888667766668877998899999988999999aa9999999999aa9999999999aaaa999999998888aa88aaaa999999888899887788998899aaaa88999999aaaa99aa9999aaaa99aaaa99aa99aa99aa9999999999aa9999889999aa9999998899aaaaaa9999aaaaaa99999999999999aa99aa99aabb999999aabbbbccaaaa99aaccccbbaaaaccbbccbbbbbbccbbbbaabbccccbbbbaabbccbbbbbbbbbbbbbbccccbbbbbbbbccbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbaabbbbbbaabbbbbbbbbbbbbbbbbbccbbbbccccccbbccbbbbccccbbaabbccaa99bbbbbbaa99aabbbbaa9999aaaa9999aaaa99aaaa9988667788999999aa9999aaaa999999aaaaaa999988aaaaaa99999988aaaaaaaa99999999aa99aaaaaa99aaaa99aa8877aa99aa99aa9999aa88bbaa99999999aaaa999999aaaa99889999aa998888889999aa779988889999bb7799778899aabbbbaa9988aaaa99bbbbbbccccbb99ccccccaaccccccccccbbccccbbaabbbbccccccbbbbbbccbbbbbbbbaaaaccccbbaabbbbccbbbbbbbbccccbbbbbbbbccccbbbbbbccccbbccbbccddccbbccccddddbbccccddddccccccccddccccccccddddccddccccddccddeeccddddcceeeecceeccddeeddddddcceeddcceeccddeeccaaddcceeeeaaaaccddeeddaaaaaaaaaaaaeeeeddaaaaaaeeaaaaeeddaaaaaaaaddeeeeaaaaaaddeeaaaaaaddaaaaaaaaaaaaccccddddeeeeeeeeeeeeddeeddcceeeeccccddeeccddccddddddddccccccccddccddddccbbddeeccbbccddbbbbccccbbaaccccccbbccccbbbbccccbbbbbbccbbbbbbbbbbccbbccbbccccccbbccbbbbbbbbbbbbbbaabbbbaa88aaaa8899999977888877888888885588888888888888888899888888889999888888889999aa888899999999aaaa888888998888aaaaaa99888899aaaa9999999999aa9999999999aa99aa99aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa99aaaabb9999aaaabb999999bbbbaa9999aaccbbaabbaa9999aaccbbaaccbbaa99aabbbbaaccccbbaaaaaabbccccbbaaaaaabbbbaabbbb99bbccaabbbbaabbbbccbbbbaabbbbbbbbbbccccbbbbbbbbccccccbbccbbccccccbbbbccccddddddccccccccccccddddccccccddddccccccddddddccbbbbddddccddddccbb99ddddccddddccbb9999ddccddddddcc999999ddddccaa999999ddccddcccc999999ccccbbcc9999bbaa99bbbb99aa99bbbbaa999999aaaa999999999999999999999999999999999999998899999988889999998888999999888888999999998888888899999999888888887788888888888877776688888877776655888888888855446688888888442288888888887788778877776666666666665555555555555544334433444444331122332233223322221122112200221199aa99aaaa99aaaa9999aaaa9999aaaa99aaaa99aaaa99aaaaaaaaaa999999aa9999aaaaaaaaaaaa99aaaaaaaaaabbaaaaaabbaabbbbaaaaaaaabbbbbbccbbaaaaaabbccccbbbbbbaabbccccbbbbaabbbbbbbbbbbbaaaaaaaabbbbbbaaaaaabbbbbbbbaaaaaaaabbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa99aaaaaaaaaaaa9999aaaaaaaaaaaa9988aaaaaaaaaa999900aaaaaaaa999911009999aa9999220000999999993300000000000099220000008888110000000000000000000000000000ccddccddddccddccddccccddddddddccccccccccccddddddccccccddddddddddddddeeeeddddddeeeeeeddddddeeeeeeddeeeeeeeeeeddeeeeeeeeddeeeeeeeeeeddddeeeeeeddddddddddddddccddddddddccccddddddddbbbbddccddccbbbbccccccbbbbbbccbbccbbbbbbccbbccbbbbbbccbbccbbbbbbccbbccbbbbbbccbbccbbbbccccbbccbbbbccccbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbccccccccbbbbccccccbbbbbbccbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaabbbbbbbbbbaabbbbbbaaaa99aaaaaaaaaa88aaaaaaaa8844999999885522778877442211334433111100112211110000111111000000000000000000000000000000000000000000000000000000000000000000bbaabbaabbbbbbccbbbbccbbbbbbbbbbbbbbccbbbbccbbbbbbbbccccccbbccbbccccccbbccbbccccccbbccbbccccbbaaccbbccccbb99bbbbccccbbaabbaaccccaaaabb99ccccbbbbbbaaccbbbbccbbaaccbbbbccccbbccbbbbddccccccbbccddddccddccccddddddddccccccddddddccccccddddddccccccccccddccccccccccddccccccccccddccccccccccccccaabbccccccbbbbbbccccbbaabbbbbbbbaaaaaaaabbbbbbaaaaaabbbbaa99aaaaaaaaaa999999aaaa99999999aaaa99888866999999886655889988663300776666330000665555000000110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ddddddddddddddeeddeeddddddccddbbbbbbbbbbbbbbbbbbaabbaabbaabbaabbbbbbbbbbbbbbbbaabbaabbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa999999995555444433222211111100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000110000111111111133111122552222449955555599999999aa999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbaaaabbbbbbaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaabbaaaaaaaaaaaaaaaaaaaaaabbaaaabbbbaaaabbbbaabbbbddbbbbbbddccccddddddddddeeddddddddddddddddddddddddddddddddddccccccddccdd9999aa9999aa999999aaaa99aaaaaaaa99aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa99aaaaaaaa9999aaaaaaaa9999aa99aaaa99aa9999aa99aaaa999999aabbbbaaaaaabbbbccaaaaaabbccbbbbbbbbbbccbbbbccbbbbccbbbbbbbbbbbbbbbbbbbbbbbbbb9999999999aa9999aaaa999999aaaa99999999aabb99999999aaaa99aaaabbaaaaaa99aabbbbaaaa99aaaabbbbbbbbaaaaaabbccbbbbaaaaaabbccbbbbaaaabbbbbbbbbbbbbbaabbbbbbbbbbbbcccc88999999999999999999999999999999889999999999889999999999999988999999999999999999999999aaaa99999999aaaabb88889999aacccc999999aaccdddd99aa99bbccddddbbbbbbccddddccbbccbbccddccbbccddccddccbbbbccddccccbbbb8888bb88ccbbbb88ccccbbbb88bbbbbb88bb88ccccddccddddddccddccddddddccddddddccccddddccccccccccccccccbbbbbbccaaaabbbb9999aaaa999999998899999988888899887788887766777766556666554466554433554433112233331111aaaaaaaaaaaaaaaaaaaaaa99aaaaaaaa99aaaaaaaa99aaaa9999aaaaaabbbb99aa99aaaabbbbaaaaaaaabbbbbbaaaaaaaabbbbccaabbaaaabbbbccbbbbbbbbbbccccbbbbbbbbbbccccccccbbbbbbccccccccbbbbbbccccccccbbbbbbbbbbccccccbbbbaaaaccccccbbaaaabbccccccaa9999aabbbbbbaa9999aabbaabbaa8899aabbbbaa998899aabbaaaa998899aaaaaaaa998899aaaaaaaa99889999bbaaaa99998899bbaaaa99888888aaaaaa99777788aa99998877777799999988777766998899886666668888887766666688777766666666776677666655557766666655554466666666554433334433665544336666555544555555444433bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaabbbbaa99aaaa999999999988889988888888888888ccccccccccccccccccccccccccccccccccccccccccbbccccccccbbccccccbbbbccccbbbbccccbbbbbbccbbbbbbbbbbbbbbbbaabbbbbbaa99aabbaaaa99aaaa99999999999999999999999999999999999999999999bbbbccbbbbccbbccbbccccbbccccccccccccccccccccccccccccccccccccbbccccccccbbccccccccbbaabbbbccaabbbbbbbbeeeeddddeeddddeeddccddeeddccccddeeddccccddccccccccccccccccbbccccccccbbbbccccccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000099887777998888997788998888889999999999999999999999999999999999999999999999998899998855998833116655110011110000000000000000000000000000000000000000000000bbbbccbbccccbbccccccccbbccccbbccccccbbbbbbccccbbbbaaccccbb99aabbbbaa9999aaaa999999aaaaaa999999aa99999999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa99aaaaaa9988aaaa99886699998866338888663322116666332233332222aaaaaaaaaaaaaabb9977aabb995522aaaaaaaaaaaa440000777766000000442233000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ccddddddddddeeccddddddeeddddddddddccddddddccddddddccddddddccccddddccccddccccccccccccbbccccccbbccbbbbbbbbbbbbaabbbbaa99aaaa998899998877888866557777443355552200223300000000000000000000000000000000000000bbccccccbbccbbccccccccccbbbbbbbbaaaaaaaa999988887777777766666655555544444444444433333333333333332222111111111111000000001100111100001111221111222211443322444433443333443333444433555544555544555544666655776666777766777777887777998888aa9999aaaaaabbaaaabbbbbbccbbbbccccccccccccccbbbbccbbbbbbbbbbbbbbccccbbaabbaaaaaaaabbaaaabbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaaaaaaabbbbaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaabbbbbbaa99bbbbaa887766aaaa997799997777bbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa9999999988887766554433222222223322552222224444776666887788998899999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddccddddddccccddddccccbbccccccbbbbccccbbbbbbbbbbbbaaaabbbbbbaa99bbbbaa8833aaaa992200aa9922000044330000001100000000000000000000000000000000000000000000000000000000bbbbbbbbbbbbbbccbbccbbccbbccbbccbbbbbbbbbbbbbbbbaabbaabbaabbaabbaaaaaaaaaaaaaaaabbaaaabbaaaaaabbaaaabbbbaaaabbbbaaaabbbbaaaabbbbbbaabbbbbbbbccbbbbbbccccbbbbccccccbbccccbbbbccccbbbbccbbbbbbccbbbbbbccbbbbbbccbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb0000000000000000000000000000000000000000000000000000000000000000aaaaaaaaaaaaaaaaaaaabbaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa8888888888889999888899999988999999998899999999888888999988999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999aa999999999999aa9999999999aaaa9999999999aaaaaa99aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbaabbbbbbaaaabbbbbbbbbbbbaabbbbbbaaaabbbbbbaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaabbbbbbaaaabbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa999999999999999999999999999999888899999999889999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999aa999999999999aa9999999999aaaa99999999aaaaaa999999aaaaaaaa9999aaaaaaaaaaaaaaaaaaaaaabbaaaaaaaaaabbbbaaaaaaaabbbbbbaaaaaaaabbbbbbaaaaaabbbbbbccaaaabbbbbbccccbbbbbbbbbbccccbbbbbbbbccccccbbbbbbbbccccccbbbbbbccccddddbbccccccccddccccccccccddddccccccccccddccccccccccddddccbbccccccddccccbbddddddddccbbbbccccccccccbbaaccccccccbbbbaaccccccbbbbbbaabbbbbbbbbbbbaabbbbbbbbbbbbbbaabbaabbbbbbbbaaaaaabbbbccccaaaaaabbbbccccaaaaaabbccccccaaaabbbbccccccbbbbbbccccccccbbbbbbccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccbbbbbbccbbbbbbccbbbbbbccbbbbbbbbbbbbbbbbbbaaaabbbbbbaaaabbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaaaaabbbbaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccbbbbbbbbbbbbccbbccbbccccbbbbbbbbccccccbbbbccccbbbbccccccccccccccccccccccccccccccccccccccccccccccccccccccddccccccddddccccddddddddddddddddddddddddddddddddddddddddddddddddddddddccddddccccccccddccccccccccccccbbbbccccccbbbbccbbbbddccccccccccccddccccccddccccccccddccccccccccccddccccccccddddccccccddddeeddddddddeeeeddddddeeeeeeddeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeddeeeeeeeeeeddeeeeeeeeddddeeddeeeeddccddddeeddddccddddeeddccccddccddddccccddccddddccccccccddccbbbbccccddccbbbbccccddbbbbbbccbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaaaabbaabbbbaaaabbaabbbbaaaaaaaabbbbbbaaaaaabbbbbbaaaaaabbbbbbaabbaabbbbbbaabbaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaabbbbbbbbaa77bbbbbbaa8866aaaaaa99774477778877552255666655221144444422110011222211000000110000000000000000000000000000000000000000000000

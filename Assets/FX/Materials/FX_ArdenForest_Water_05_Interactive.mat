@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_ArdenForest_Water_05_Interactive
+  m_Shader: {fileID: -6465566751694194690, guid: 1e716a851cf462d46946bc32560e5069, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddAlpha:
+        m_Texture: {fileID: 2800000, guid: ec00b86c40dde614ba788841c1d75d45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AddNormal:
+        m_Texture: {fileID: 2800000, guid: 3ace92e642dab414582593bcc80ef7bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTexArray:
+        m_Texture: {fileID: 18700000, guid: d8f856b44dade034b800eefe7ff76cff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 5730b5e849c342948bc0487eb7b8f484, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamMainTex:
+        m_Texture: {fileID: 2800000, guid: 1342f69492e26bd46bdc4c94f4ccac30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamSecondTex:
+        m_Texture: {fileID: 2800000, guid: 7979ef2d44a595e43959d46ccd3dc89e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 1342f69492e26bd46bdc4c94f4ccac30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LargeScaleNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 5aae694a7c5866144a5c1c01880b970f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LargeScaleNoiseTex3D:
+        m_Texture: {fileID: 11700000, guid: 82734fbd8119e8d4882ce737be14c325, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNormalTex:
+        m_Texture: {fileID: 2800000, guid: 0a791f358cb2d144dbab7307e27c97aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1342f69492e26bd46bdc4c94f4ccac30, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 0a791f358cb2d144dbab7307e27c97aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RipplesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondNormalTex:
+        m_Texture: {fileID: 2800000, guid: 3ace92e642dab414582593bcc80ef7bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_a58b006d988f4d2a8b7d72dfc6b89a33_Out_0_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddAlphaAmount: 0
+    - _AddToMainTex: 0.8
+    - _AlphaPower: 4
+    - _BlendDistance: 1.02
+    - _BlendEdgeBlur: 19.97
+    - _CameraOffset: 0
+    - _CausticsPower: 2.5
+    - _CausticsSpeed: 0.2
+    - _DepthFoamAlphaBoost: 0.99
+    - _DepthRemapPower: 1
+    - _DistortionBlurFar: 0
+    - _DistortionBlurNear: 0
+    - _DistortionIntensityFar: 0.13
+    - _DistortionIntensityNear: 0.1
+    - _DistortionMask: 0
+    - _EdgeFoamAlphaBoost: 1.02
+    - _Emission: 0
+    - _FlowIntencity: 0.211
+    - _FlowSpeed: -0.13
+    - _FoamAlpha: 1
+    - _FoamAlphaScale: 0.71
+    - _FoamAmount: 0.39
+    - _FoamErosion: 0.05
+    - _FoamRoughness: 1
+    - _LageScaleNoiseWarp: 0.21
+    - _MainAlpha: 1
+    - _MainNormalIntensity: 0.22
+    - _MainTexAlpha: 0.2
+    - _Metallic: 0
+    - _NormalIntencityFar: 1.77
+    - _NormalIntencityNear: 0.17
+    - _OccluderObjectOpacity: 1
+    - _Offset: 0.5
+    - _OpacityBoost: 1
+    - _OpacityDepthPower: 0.75
+    - _OpacityScale: 0.3
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _RipplesBlend: -0.13
+    - _RipplesFoamWarp: 0.244
+    - _Roughness: 0.11
+    - _SecondNormalIntensity: 0.14
+    - _VertexAlphaPower: 1
+    - _VerticalOffset: 0
+    - _WaveFoamAlpha: 27.28
+    - _WaveFoamAlphaPower: 1.8
+    m_Colors:
+    - _AddAlphaNoise: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _AddAlphaOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AddAlphaScroll: {r: 0, g: 0.01, b: 0, a: 0}
+    - _AddAlphaTile: {r: 35, g: 30, b: 0, a: 0}
+    - _AddNormalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AddNormalScroll: {r: 0, g: 0.04, b: 0, a: 0}
+    - _AddNormalTile: {r: 6, g: 4, b: 0, a: 0}
+    - _CausticsColor: {r: 0.5188679, g: 0.5188679, b: 0.5188679, a: 0}
+    - _CausticsWorldScale: {r: 0.45, g: 0.45, b: 0.45, a: 0}
+    - _ColorDepthRemap: {r: 0.59, g: 1, b: 0, a: 0}
+    - _ColorVarianceFromNormal: {r: 100, g: 100, b: 100, a: 0}
+    - _CutoutOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _CutoutScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _CutoutTile: {r: 1, g: 1, b: 0, a: 0}
+    - _DeepColorFar: {r: 0, g: 0, b: 0, a: 0}
+    - _DeepColorNear: {r: 0.14901961, g: 0.23137255, b: 0.25490198, a: 0}
+    - _DepthFadeRemap: {r: 0, g: 0.69, b: 0, a: 0}
+    - _DepthFoamRemap: {r: 0, g: 0.44, b: 0, a: 0}
+    - _DetailColor: {r: 1, g: 0.9951782, b: 0.8915094, a: 0}
+    - _Dist: {r: 0.03, g: 0.03, b: 0, a: 0}
+    - _DistanceToCameraRemap: {r: 18, g: 6, b: 0, a: 0}
+    - _EdgeFoamRemap: {r: 0, g: 0.28, b: 0, a: 0}
+    - _FoamColor: {r: 0.8773585, g: 0.8483891, b: 0.8483891, a: 0}
+    - _FoamColorSmoothstep: {r: 0, g: 1, b: 0, a: 0}
+    - _FoamMainTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _FoamMainTexScroll: {r: -0.005, g: 0.005, b: 0, a: 0}
+    - _FoamMainTexTile: {r: 12, g: 12, b: 0, a: 0}
+    - _FoamSecondTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _FoamSecondTexScroll: {r: 0.005, g: -0.005, b: 0, a: 0}
+    - _FoamSecondTexTile: {r: 20, g: 20, b: 0, a: 0}
+    - _HighlightColor: {r: 1, g: 0.9693252, b: 0.8820755, a: 0}
+    - _LargeScaleNoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _LargeScaleNoiseScroll: {r: 0, g: 0.06, b: 0, a: 0}
+    - _LargeScaleNoiseScroll3D: {r: 0, g: 0.3, b: -0.46, a: 0}
+    - _LargeScaleNoiseWorldPosScale: {r: 0.2, g: 0.2, b: 0.2, a: 0}
+    - _MainColor: {r: 0.31461376, g: 0.53208727, b: 0.6603774, a: 0}
+    - _MainColorFar: {r: 0.4541207, g: 0.55535775, b: 0.6132076, a: 0}
+    - _MainColorNear: {r: 0.3146137, g: 0.5320873, b: 0.6603774, a: 0}
+    - _MainNormalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MainNormalScroll: {r: -0.02, g: 0.02, b: 0, a: 0}
+    - _MainNormalTile: {r: 12, g: 12, b: 0, a: 0}
+    - _MainTexColor: {r: 0.2024742, g: 0.50131613, b: 0.6603774, a: 0}
+    - _MainTexNoise: {r: 0.01, g: 0.1, b: 0, a: 0}
+    - _MainTexOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _MainTexScroll: {r: 0, g: 0.05, b: 0, a: 0}
+    - _MainTexTile: {r: 27, g: 27, b: 0, a: 0}
+    - _NormalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalScroll: {r: 0, g: 0.2, b: 0, a: 0}
+    - _NormalTile: {r: 24, g: 24, b: 0, a: 0}
+    - _OpacityDepthFadeRemap: {r: 0, g: 0.31, b: 0, a: 0}
+    - _OpacityEdgeFadeRemap: {r: 0, g: 0.29, b: 0, a: 0}
+    - _RoughnessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _SceneColor: {r: 0.256424, g: 0.3729716, b: 0.482, a: 0}
+    - _SecondNormalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SecondNormalScroll: {r: 0.02, g: -0.02, b: 0, a: 0}
+    - _SecondNormalTile: {r: 8, g: 5, b: 0, a: 0}
+    - _ShallowColorFar: {r: 0.37286404, g: 0.46226418, b: 0.45142782, a: 0}
+    - _ShallowColorNear: {r: 0.14778392, g: 0.23031206, b: 0.254717, a: 0}
+    - _Specular_Color: {r: 0.033, g: 0.033, b: 0.033, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

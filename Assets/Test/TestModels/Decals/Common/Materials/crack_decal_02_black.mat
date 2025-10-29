@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: crack_decal_02_black
+  m_Shader: {fileID: 4800000, guid: 3995c81850861294c8e87541440f815d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _GRADIENT_FADE
+  - _MASKSMAP
+  - _NORMALMAP
+  - _SLOPE_FADE
+  m_InvalidKeywords:
+  - 
+  - _AFFECTSALBEDO_ON
+  - _AFFECTSEMISSION_ON
+  - _AFFECTSMETALLIC_ON
+  - _AFFECTSNORMALS_ON
+  - _AFFECTSROUGHNESS_ON
+  - _RADIALALPHASUBSTRACT_OFF
+  - _SUBSTRACTALPHAFLAG_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    RenderType: Opaque
+    VT_STACK_0_LAYER_0: b3c8226ed09f47b458294334a64cf370
+    VT_STACK_0_LAYER_1: 4aaa1ff0e607cfd448fe54b3811afbe0
+    VT_STACK_0_LAYER_2: 286cb952fd35251468fa4f49ab8930ab
+  disabledShaderPasses:
+  - DistortionVectors
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: b3c8226ed09f47b458294334a64cf370, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 4aaa1ff0e607cfd448fe54b3811afbe0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorAlphaRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 2800000, guid: 286cb952fd35251468fa4f49ab8930ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise0Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise1Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AffectsAlbedo: 1
+    - _AffectsEmission: 1
+    - _AffectsMetallic: 1
+    - _AffectsNormals: 1
+    - _AffectsRoughness: 1
+    - _AlbedoWriteMask: 14
+    - _AlphaScale: 0.92
+    - _Alphatest: 0
+    - _Blend: 0
+    - _BumpScale: 3
+    - _ColorAlphaRampEnabled: 0
+    - _CullMode: 2
+    - _Cutoff: 0
+    - _DecalEmissionIntensity: 1
+    - _DecalEmissionMapUsage: 1
+    - _DecalEmissionUseColorFactor: 0
+    - _DecalExpGradient: 0
+    - _DecalGradientMode: 0
+    - _DecalOutputMask: -1
+    - _DecalSlopeFadePower: 1
+    - _DecalSlopeFadeStart: 1
+    - _DecalSlopeHardEdgeNormalFactor: 0
+    - _Distortion: 1
+    - _DistortionColorFactor: 0.5
+    - _DistortionDoesNotUseAlpha: 1
+    - _DistortionEnabled: 0
+    - _DistortionThicknessScale: 1
+    - _DoubleSided: 0
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 0
+    - _Emission: 0
+    - _EmissionAlbedoSuppression: 0
+    - _EmissionColorFactor: 1
+    - _EmissionColorScale: 1
+    - _EmissionEnabled: 0
+    - _EmissionMapUsage: 0
+    - _EmissionWriteMask: 14
+    - _EnvironmentReflections: 1
+    - _GpuSkinning: 0
+    - _GradientFade: 1
+    - _GroundColorPower: 1
+    - _HdrColorScale: 1
+    - _LightmapEmissionFlags: 0
+    - _MainTex1Weight: 1
+    - _MasksWriteMask: 13
+    - _Metallic: 0
+    - _Noise0Enabled: 0
+    - _Noise0Scale: 0
+    - _Noise1Enabled: 0
+    - _Noise1Scale: 0
+    - _NoiseUvCorrectionEnabled: 0
+    - _NormalsBlendingFactor: 1
+    - _NormalsWriteMask: 14
+    - _OcclusionProbes: 1
+    - _QueueOffset: 0
+    - _RadialAlphaEnabled: 0
+    - _RadialAlphaGradientPower: 1
+    - _RadialAlphaGradientStart: 1
+    - _RadialAlphaSubstract: 0
+    - _RampAlbedoWeight: 0
+    - _RampScrollSpeed: 0
+    - _ReceiveDecals: 0
+    - _ReceiveShadows: 1
+    - _Roughness: 1
+    - _SlopeFade: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SubstractAlphaFlag: 0
+    - _SupportsVT: 0
+    - _Surface: 0
+    - _Tex1Enabled: 0
+    - _Tex1MixMode: 1
+    - _Thickness: 1
+    - _ThicknessSharpness: 1
+    - _TranslucencyAmbientBumpScale: 1
+    - _TranslucencyAmbientScale: 1
+    - _TranslucencyDistortion: 0.1
+    - _TranslucencyForwardScale: 1
+    - _Translucent: 0
+    - _UvMapping: 0
+    - _VertexAnimation: 0
+    - _WorldUvXz: 0
+    - _ZTest: 3
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DecalEmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionUVSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Noise0Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _Noise1Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _TranslucencyColor: {r: 1, g: 1, b: 1, a: 1}
+    - _UV0Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _UV1Speed: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water_ArdenForest00
+  m_Shader: {fileID: -6465566751694194690, guid: 62a10de1acf3ff74993a4c1f8ac05ce2, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - XPBD_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: b8abf809025e1f644b646bebcfa8a040, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 1342f69492e26bd46bdc4c94f4ccac30, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Gradient:
+        m_Texture: {fileID: 2800000, guid: a95db751ee1f1b94893cca03f06fb33c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0a791f358cb2d144dbab7307e27c97aa, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _RipplesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryFoamNoise:
+        m_Texture: {fileID: 2800000, guid: ec00b86c40dde614ba788841c1d75d45, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _SecondaryNormalMap:
+        m_Texture: {fileID: 2800000, guid: 3ace92e642dab414582593bcc80ef7bf, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _TangentMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alphatest: 0
+    - _Anisotropic: 0
+    - _Anisotropy: 0
+    - _BaseColorBlending: 0
+    - _Blend: 0
+    - _Blur: 0.09
+    - _BlurWater: 0
+    - _BumpScale: 1
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _Depth: 1
+    - _DepthSaturate: 1
+    - _Distortion: 1
+    - _DistortionColorFactor: 0.5
+    - _DistortionDoesNotUseAlpha: 1
+    - _DistortionEnabled: 0
+    - _DistortionThicknessScale: 1
+    - _DoubleSided: 0
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 0
+    - _Emission: 0
+    - _EmissionColorFactor: 0
+    - _EmissionColorScale: 1
+    - _EmissionColorScaleMeta: 1
+    - _EnvironmentReflections: 1
+    - _FOAMUSEALPHAFROMFLOWMAP: 0
+    - _FOAMUSEVERTEXCOLOR: 0
+    - _Float: 0.03
+    - _Float_1: 0
+    - _Float_2: -0.4
+    - _FlowMapPanning: 0
+    - _FlowMapSpeed: 0.15
+    - _FlowMapStrength: 0.236
+    - _FoamDepthThreshold: 0.05
+    - _FoamOnNormalPower: 0.1
+    - _FoamOnNormalThreshold: -0.1
+    - _FoamSecondaryDissolve: 0.09
+    - _FoamTextureDissolve: 4.27
+    - _FoamTextureSaturation: 1.6
+    - _FoamThreshold: 1
+    - _FoamTime: 0.015
+    - _GroundColorPower: 1
+    - _IndirectIstancing: 0
+    - _LightmapEmissionFlags: 0
+    - _Mask: 0.08
+    - _MasksMapMetadata: 0
+    - _Metallic: 0
+    - _NormalStrength: 1.49
+    - _OccludedObjectClip: 0
+    - _OccludedObjectHighlighting: 0
+    - _OccluderObjectOpacity: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReceiveTerrainBlendingDecals: 0
+    - _RefractStrength: 0.0255
+    - _RipplesBlend: 1
+    - _Roughness: 0.05
+    - _SecondaryFoamDissolve: 0
+    - _SecondaryNormalBlend: -0.47
+    - _ShadowsCullMode: 2
+    - _Smoothness: 0.945
+    - _SpecialPostprocessFlag: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _Strength: 0.015
+    - _SupportsVT: 0
+    - _Surface: 0
+    - _Thickness: 1
+    - _TopColorDepth: 0.988
+    - _TranslucencyProfile: 0
+    - _TranslucencySelfShadowingWorkaround: 0
+    - _Translucent: 0
+    - _TransparencyDepth: 0.359
+    - _TrasnaprencyDepth: 0.024
+    - _USEALPHAFROMFLOWMAP: 0
+    - _USEALPHAFROMNORMALMAP: 0
+    - _UseGroundColor: 0
+    - _VaEdgeFlutter: 0
+    - _VaPrimaryFactor: 0
+    - _VaSecondaryFactor: 0
+    - _VertexAnimationEnabled: 0
+    - _WarpFoamWithNormal: -0.0058
+    - _WarpNormalWithSecondary: 0.016
+    - _WaveColorDepth: 0.37
+    - _XpbdMode: 0
+    - _ZTest: 3
+    - _ZWrite: 1
+    - __MaterialType: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColor: {r: 0.09433961, g: 0.06897472, b: 0.06897472, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 0.5849056, g: 0.56910414, b: 0.5655927, a: 0.6509804}
+    - _ShallowColor: {r: 0.12415449, g: 0.12684019, b: 0.16981131, a: 0}
+    - _SurfaceColor: {r: 0.20392157, g: 0.22352941, b: 0.1882353, a: 1}
+    - _TopColor: {r: 0.2716714, g: 0.3490566, b: 0.32795155, a: 1}
+    - _VaFrequencies: {r: 1.975, g: 0.793, b: 0.375, a: 0.193}
+    - _Vector2: {r: 0, g: 1, b: 0, a: 0}
+    - _Vector2_1: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector4: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveColor: {r: 0.084905684, g: 0.06738198, b: 0.06688325, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

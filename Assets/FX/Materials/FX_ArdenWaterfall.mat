@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_ArdenWaterfall
+  m_Shader: {fileID: -6465566751694194690, guid: d64b6932405bb8f4ab81a1b6def3edaa, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddAlpha:
+        m_Texture: {fileID: 2800000, guid: fe79efbb111d01e47933ca1e1fc0c6cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AddNormal:
+        m_Texture: {fileID: 2800000, guid: 94ca386e229595c4894ece83ce1ac6f5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CutoutTex:
+        m_Texture: {fileID: 2800000, guid: 872c6bca1ae609a4aa6c59396a24520c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 400e033d27f035f4b8d35915e2e32ed3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: f152145ec6cea57489c4e47e38a2ed26, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 5aae694a7c5866144a5c1c01880b970f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WS_Tex:
+        m_Texture: {fileID: 2800000, guid: 400e033d27f035f4b8d35915e2e32ed3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AddAlphaAmount: 0.426
+    - _AddToMainTex: 0.15
+    - _BlendDistance: 1.5
+    - _CameraOffset: -0.35
+    - _DistortionBlur: 0.252
+    - _DistortionBlurFar: 0.193
+    - _DistortionBlurNear: 0.554
+    - _DistortionIntensity: 0.03
+    - _DistortionIntensityFar: 0.01
+    - _DistortionIntensityNear: 0.03
+    - _DistortionMask: 0
+    - _DistortionPower: 0.1
+    - _Emission: 0.55
+    - _FadeDistance: 0
+    - _MainTexAlpha: 0.21
+    - _Metallic: 0.642
+    - _NormalIntencity: 0.12
+    - _NormalIntencityFar: 0.2
+    - _NormalIntencityNear: 0.12
+    - _OccluderObjectOpacity: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _Roughness: 0.111
+    - _Smoothness: 1
+    - _VertexAlphaPower: 2
+    - _VerticalOffset: -1.34
+    - _WS_TexAlpha: 0.22
+    m_Colors:
+    - _AddAlphaNoise: {r: 0.01, g: 0.02, b: 0, a: 0}
+    - _AddAlphaOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AddAlphaScroll: {r: 0, g: -1, b: 0, a: 0}
+    - _AddAlphaTile: {r: 2, g: 2, b: 0, a: 0}
+    - _AddNormalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _AddNormalScroll: {r: 0, g: -0.2, b: 0, a: 0}
+    - _AddNormalTile: {r: 3, g: 2, b: 0, a: 0}
+    - _CutoutNoise: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _CutoutOffset: {r: 0.58, g: 0.09, b: 0, a: 0}
+    - _CutoutScroll: {r: 0, g: 0, b: 0, a: 0}
+    - _CutoutTile: {r: 0.6, g: -1, b: 0, a: 0}
+    - _DepthFadeRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainTexColor: {r: 0.65900004, g: 0.9827997, b: 1, a: 0}
+    - _MainTexNoise: {r: 0.01, g: 0.02, b: 0, a: 0}
+    - _MainTexOffset: {r: 0.05, g: 0, b: 0, a: 0}
+    - _MainTexScroll: {r: 0, g: 0.4, b: 0, a: 0}
+    - _MainTexTile: {r: 0.9, g: -1, b: 0, a: 0}
+    - _NoiseOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _NoisePower: {r: 0.02, g: 0.03, b: 0, a: 0}
+    - _NoiseScroll: {r: 0, g: -1, b: 0, a: 0}
+    - _NoiseTile: {r: 5, g: 1, b: 0, a: 0}
+    - _NormalOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _NormalScroll: {r: 0, g: -0.5, b: 0, a: 0}
+    - _NormalTile: {r: 2, g: 1.5, b: 0, a: 0}
+    - _RoughnessRemap: {r: 0, g: 1, b: 0, a: 0}
+    - _VertexNoisePower: {r: 0, g: 0, b: 0, a: 0}
+    - _WS_TexColor: {r: 0.533194, g: 0.634, b: 0.5790149, a: 0}
+    - _WS_TexOffset: {r: 0.05, g: 0, b: 0, a: 0}
+    - _WS_TexScroll: {r: 0, g: 0.4, b: 0, a: 0}
+    - _WS_TexTile: {r: 0.9, g: -1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

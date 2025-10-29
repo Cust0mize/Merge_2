@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Test_arden
+  m_Shader: {fileID: -6465566751694194690, guid: 11e8bdd71740b67409fc96c51583f4cd, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _IceMask:
+        m_Texture: {fileID: 2800000, guid: edafac480fe0dbe44a175ec1f8957e61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceViewTexture:
+        m_Texture: {fileID: 2800000, guid: 315bda9c405611c4fab6cd7429fd61e6, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTexture:
+        m_Texture: {fileID: 2800000, guid: 042f1ac25066b864c90785d2c93b1fdc, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _WaterTexture:
+        m_Texture: {fileID: 2800000, guid: 042f1ac25066b864c90785d2c93b1fdc, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _1: 0
+    - _2: 0
+    - _BlendValue: 1
+    - _Depth: 0.58
+    - _ExpandRange: 5
+    - _Float: 0.87
+    - _IceNoiseScale: 1
+    - _IceScale: 12
+    - _MaskRotation: 0
+    - _NoisePower: 80.08
+    - _NoiseScale: 1
+    - _OccluderObjectOpacity: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _ShallowNoiseScale: 0.2
+    - _TextureFloatingSpeed: 1
+    - _Transparency: 0.557
+    - _WaveSpeed: 1
+    m_Colors:
+    - _Center: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _ExpandPosition: {r: 0, g: 0, b: -4.31, a: 0}
+    - _IceColor0: {r: 0.4761926, g: 0.7935524, b: 0.8207547, a: 1}
+    - _IceColor2: {r: 1, g: 1, b: 1, a: 1}
+    - _IceMaskOffset: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _IceTextureOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _IceTextureTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _ShallowColor: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
+    - _Tiling: {r: 0.2, g: 0.2, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 0, b: 0, a: 0}
+    - _WalkableBoxPosition: {r: 0, g: 0, b: 0, a: 0}
+    - _WalkableShallowColor: {r: 0, g: 0, b: 0, a: 0.5882353}
+    - _WaterTint: {r: 0, g: 0.29029918, b: 0.5, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

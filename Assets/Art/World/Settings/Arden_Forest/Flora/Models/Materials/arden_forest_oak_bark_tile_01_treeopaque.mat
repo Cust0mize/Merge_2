@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: arden_forest_oak_bark_tile_01_treeopaque
+  m_Shader: {fileID: -6465566751694194690, guid: f383d5bb7a03a694f8274ff4a4ed7104, type: 3}
+  m_Parent: {fileID: 2100000, guid: 7ed04c6d313ed954986cf567893db97c, type: 2}
+  m_ModifiedSerializedProperties: 24
+  m_ValidKeywords:
+  - _BACKFACENORMALSMODE_MIRROR
+  - _ISBARK
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2ac7dbcb37dfe364795f3424b5d80ac8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: db42f5e7fcf64ae4a885e67623c30434, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 2800000, guid: 0227a326dc9b51f4abf1b6789e962bd0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _AmplitudeMult_LeafMovement: 0.153
+    - _Cull: 2
+    - _HorizontalSineAmplitudeMult: 0
+    - _HorizontalSineStrengthMult: 0
+    - _ISBARK: 1
+    - _SineLength_BranchMovement: 0.2
+    - _SineLength_LeafMovement: 8.3
+    - _SineTime_LeafMovement: 1
+    m_Colors:
+    - _Amplitude_BranchMovement: {r: -0.04, g: 0.1, b: -0.04, a: 0}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
