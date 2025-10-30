@@ -1,1 +1,3 @@
-*.unity text eol=native filter=lfs diff=text 
+*.prefab merge=unityyamlmerge
+*.asset merge=unityyamlmerge
+*.unity text eol=native filter=lfs diff=text merge=unityyamlmerge
