@@ -1,0 +1,53 @@
+[arrays]
+set *.GameObject.m_Component *.fileID
+set *.Transform.m_Children *.fileID
+set *.RectTransform.m_Children *.fileID
+set *.PrefabInstance.m_AddedComponents *.component
+set *.PrefabInstance.m_RemovedComponents *.component
+set *.PrefabInstance.m_Modification.m_Modifications *.target
+set *.Renderer.m_Materials *.fileID
+set *.LODGroup.m_LODs.m_renderers *.fileID
+set *.SceneRoots.m_Roots *.fileID
+set *.CanvasRenderer.m_Materials *.fileID
+set *.LightmapSettings.m_Lightmaps *.fileID
+set *.Terrain.m_detailPrototypes *.m_Prototype
+set *.Terrain.m_TreePrototypes *.m_Prefab
+
+[comparisons]
+# Transform position
+float *.Transform.m_LocalPosition.x 0.00001
+float *.Transform.m_LocalPosition.y 0.00001
+float *.Transform.m_LocalPosition.z 0.00001
+
+# Transform rotation (quaternion), с небольшой относительной погрешностью
+float *.Transform.m_LocalRotation.x 0.0001 0.001
+float *.Transform.m_LocalRotation.y 0.0001 0.001
+float *.Transform.m_LocalRotation.z 0.0001 0.001
+float *.Transform.m_LocalRotation.w 0.0001 0.001
+
+# Transform scale
+float *.Transform.m_LocalScale.x 0.00001
+float *.Transform.m_LocalScale.y 0.00001
+float *.Transform.m_LocalScale.z 0.00001
+
+# RectTransform
+float *.RectTransform.m_AnchoredPosition.x 0.0001
+float *.RectTransform.m_AnchoredPosition.y 0.0001
+float *.RectTransform.m_SizeDelta.x 0.0001
+float *.RectTransform.m_SizeDelta.y 0.0001
+float *.RectTransform.m_AnchorMin.x 0.0001
+float *.RectTransform.m_AnchorMin.y 0.0001
+float *.RectTransform.m_AnchorMax.x 0.0001
+float *.RectTransform.m_AnchorMax.y 0.0001
+float *.RectTransform.m_Pivot.x 0.0001
+float *.RectTransform.m_Pivot.y 0.0001
+
+# Camera
+float *.Camera.m_FieldOfView 0.0001
+float *.Camera.m_NearClipPlane 0.0001
+float *.Camera.m_FarClipPlane 0.001
+
+# Light
+float *.Light.m_Intensity 0.0001
+float *.Light.m_Range 0.0001
+float *.Light.m_SpotAngle 0.0001
