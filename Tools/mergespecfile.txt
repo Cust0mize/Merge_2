@@ -12,9 +12,9 @@
 # On Windows %programs% is replaced with "C:\Program Files" and "C:\Program Files (x86)" there by resulting in two entries to try out
 # On OSX %programs% is replaced with "/Applications" and "$HOME/Applications" thereby resulting in two entries to try out
 
-unity  use "C:\Users\geniy\MergeDriver_2\Tools\rider-merge-wrapper.bat" "%r" "%l" "%b" "%d"
-prefab use "C:\Users\geniy\MergeDriver_2\Tools\rider-merge-wrapper.bat" "%r" "%l" "%b" "%d"
-tmp    use "C:\Users\geniy\MergeDriver_2\Tools\rider-merge-wrapper.bat" "%r" "%l" "%b" "%d"
+unity  use "%programs%\Beyond Compare 4\bcomp.exe" "%r" "%l" "%b" "%d"
+prefab use "%programs%\Beyond Compare 4\bcomp.exe" "%r" "%l" "%b" "%d"
+tmp    use "%programs%\Beyond Compare 4\bcomp.exe" "%r" "%l" "%b" "%d"
 
 #
 # Default fallbacks for unknown files. First tool found is used.
