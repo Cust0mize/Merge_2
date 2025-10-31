@@ -16,10 +16,11 @@ fail() { echo "[unity-lfs-merge][ERROR] $*"; exit 2; }
 if [ "${#}" -lt 4 ]; then
   fail "Ожидалось 4 аргумента: %O %A %B %P. Получено: ${#}"
 fi
+
 BASE="$1"
 CURRENT="$2"
 OTHER="$3"
-PATH_FILE="$4"
+PATH_FILE="$4" 
 
 log "Args: BASE=%O:'$BASE' CURRENT=%A:'$CURRENT' OTHER=%B:'$OTHER' PATH='%P:$PATH_FILE'"
 log "PWD=$(pwd)"
@@ -28,7 +29,7 @@ log "PWD=$(pwd)"
 # Пути и проверки
 # -----------------------------
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-TOOLS_DIR="$SCRIPT_DIR/Tools"
+TOOLS_DIR="$SCRIPT_DIR/Tools/UnityYAMLMerge"
 UNITY_MERGE="$TOOLS_DIR/UnityYAMLMerge.exe"
 MERGESPEC="$TOOLS_DIR/mergespecfile.txt"
 MERGERULES="$TOOLS_DIR/mergerules.txt"
@@ -47,6 +48,7 @@ FILE_EXT="${PATH_FILE##*.}"
 if [ -z "$FILE_EXT" ] || [ "$FILE_EXT" = "$PATH_FILE" ]; then
   FILE_EXT="unity" # по умолчанию
 fi
+
 log "Detected file extension: .$FILE_EXT"
 
 # -----------------------------
@@ -75,7 +77,8 @@ extract_lfs_content() {
   local input_file="$1"
   local output_file="$2"
 
-  log "Extract: '$input_file' -> '$output_file'"
+  log "Extract: '$input_file' -> '$output_file'"юююююююююююдддддддддддддддддддддддддддддддддддддддддддддддд
+
   if [ ! -f "$input_file" ]; then
     log "Input does not exist: $input_file"
     return 1
@@ -87,17 +90,21 @@ extract_lfs_content() {
 
   if echo "$first_line" | grep -q "^version https://git-lfs.github.com"; then
     log "Detected LFS pointer. Running: git lfs smudge < '$input_file' > '$output_file'"
+
     if git lfs smudge < "$input_file" > "$output_file" 2>&1; then
       local out_first
       out_first=$(head -n 1 "$output_file" 2>/dev/null || true)
       log "First line after smudge: ${out_first:-<empty>}"
+
       if echo "$out_first" | grep -q "^version https://git-lfs.github.com"; then
         # Попытка прямого чтения из LFS-кэша
         local oid
         oid=$(grep "^oid sha256:" "$input_file" | cut -d: -f2 | tr -d ' ' || true)
+
         if [ -n "$oid" ]; then
           local lfs_cache=".git/lfs/objects/${oid:0:2}/${oid:2:2}/$oid"
           log "Smudge still pointer. Trying LFS cache: $lfs_cache"
+
           if [ -f "$lfs_cache" ]; then
             cp "$lfs_cache" "$output_file"
             log "Copied from LFS cache"
